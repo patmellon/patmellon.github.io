@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFE5E0; /* Light Watermelon Pink */
+    color: #303030; /* Watermelon Seed Black for text */
+    text-align: center;
+}
+
+header {
+    background-color: #2E8B57; /* Watermelon Green */
+    color: white;
+    padding: 10px 0;
+    border-radius: 2px 2px 2px 2px; /* Rounded corners */
+}
+
+h1 {
+    color: #FC6C85; /* Watermelon Red for titles */
+}
+
+.subtitle {
+    display: block;
+    color:  #FFE5E0;
+    font-size: 1.2em;
+}
+
+.profile-image img {
+    max-width: 100%; /* Responsive Image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circle shape */
+    margin-top: 20px;
+    width: 150px; /* Fixed width, override if necessary */
+    height: 150px; /* Fixed height, override if necessary */
+    border: 5px solid #A3C1AD; /* Light Green border */
+}
+
+.social-links a {
+    margin: 20px 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-links a:hover img {
+    filter: none; /* Revert to normal color on hover */
+}
+
+/* Styling for all links */
+a {
+    color: #2E8B57; /* Watermelon Green for links */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    color: #FC6C85; /* Watermelon Red on hover */
+}
